@@ -11,3 +11,5 @@
 
 **解决：**   
 >前端同事直接修改H5端调用的接口即可
+
+###2、[JavaWeb工程占用过高的CPU和RAM](https://github.com/JauYang/pitfalls-back-end/blob/master/JauYang/JavaWeb%E5%B7%A5%E7%A8%8B%E5%8D%A0%E7%94%A8%E8%BF%87%E9%AB%98%E7%9A%84CPU%E5%92%8CRAM.md)
