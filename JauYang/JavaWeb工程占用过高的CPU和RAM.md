@@ -47,7 +47,7 @@
 2、解决占用ram较高的问题：<br/>
     一般设置tomcat的堆内存即可：<br/>
     catalina.sh文件的第一行加入下边这句： <br/>
-    JAVA_OPTS="$JAVA_OPTS -server -Xms128m -Xmx256m -XX:PermSize=256M -XX:MaxNewSize=512m"<br/>
+    JAVA_OPTS='-Xms128m -Xmx256m -XX:PermSize=256M -XX:MaxNewSize=512m'<br/>
     -Xms128m JVM初始分配的堆内存<br/>
     -Xmx256m JVM最大允许分配的堆内存，按需分配<br/>
     -XX:PermSize=256M JVM初始分配的非堆内存<br/>
