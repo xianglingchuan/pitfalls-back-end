@@ -12,7 +12,7 @@
 以前经常出现执行挂载命令以后,shell命令可以直接进入挂载点操作，但远程程序一直无法操作成功。 <BR>
 后来发现是需要加上-o 参数： <BR>
 执行sshfs –h 会看到如下帮助说明<BR>
-![](file:///C:/Users/xlc/Desktop/github更新/22.png)
+![](https://github.com/xianglingchuan/pitfalls-back-end/blob/master/sshfs/sshfs%E5%B8%AE%E5%8A%A9%E8%AF%B4%E6%98%8E.png)
 
 
 FUSE options: <BR>
