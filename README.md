@@ -13,3 +13,5 @@
 >前端同事直接修改H5端调用的接口即可
 
 ###2、[JavaWeb工程占用过高的CPU和RAM](https://github.com/JauYang/pitfalls-back-end/blob/master/JauYang/JavaWeb%E5%B7%A5%E7%A8%8B%E5%8D%A0%E7%94%A8%E8%BF%87%E9%AB%98%E7%9A%84CPU%E5%92%8CRAM.md)
+
+###3、[MongDB在linux服务端配置安装以及数据备份](https://github.com/xianglingchuan/pitfalls-back-end/blob/master/mongodb-install/mongodb%E5%9C%A8linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.md)
