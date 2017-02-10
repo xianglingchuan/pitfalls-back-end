@@ -35,3 +35,22 @@ Try iptables-restore -h or iptables-restore --help for more information. [失败
 导致文档里面可能存在空格或者错误，虽然与其它服务器上的对比用肉眼没有发现问题。
 
 **解决方法：** 直接copy另外一台服务器的iptables文件重启防火墙成功。
+
+
+
+###6、服务端重定向资源访问目录
+
+**问题：** 服务端重定向资源访问目录
+
+**原因：**需要使URL中访问/A/B/C/a.jpg访问的是/D/C/E/a.jpg目录中的资源
+
+**解决方法：** 
+思路：最开始想用linux下面的 ln -s 命令，软链接方式进行实现，但在http地址上访问不了，后台发现ln -s 其实只是创建了一个快捷方式。<BR>
+而且需求是不但目录下的文件，目录下的包含的所有目录及所有子目录都需要这样访问。<BR>
+
+最终实现的方式是rewrite方式。<BR>
+在nginx中配置的代码如下：<BR>
+
+ location ^~ /static/upload/bgmusic/{<BR>
+    rewrite ^/static/upload/bgmusic/(.*)$ /kkresource/voice/$1 last;<BR>
+ }<BR>
