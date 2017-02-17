@@ -1,6 +1,18 @@
 # pitfalls-back-end
 那些年，我们一起踩过的后端的坑！
 
+
+###7、基于小米推送官方SDK的实现及测试
+
+**问题：** 基于小米推送官方SDK的实现及测试
+
+**解决方法：** 
+php:https://github.com/xianglingchuan/php-learn-record-project/tree/master/miPush
+
+java:https://github.com/xianglingchuan/java-learn-record-project/tree/master/src/com/learn/mipush
+
+
+
 ###1、iOS WebView 加载我们自己服务器网页，部分脚本无法加载
 
 **描述：**iOS WebView 加载我们自己服务器网页，部分脚本无法加载, 主要是更换https以后出现的情况。   
