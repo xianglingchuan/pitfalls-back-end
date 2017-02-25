@@ -55,10 +55,6 @@ Try iptables-restore -h or iptables-restore --help for more information. [失败
 
 **解决方法：** 直接copy另外一台服务器的iptables文件重启防火墙成功。
 
-<<<<<<< HEAD
-###6、[Boostrap-wysiwyg富文本编辑器（java）](https://github.com/JXYZH11/Boostrap-wysiwyg.git)
-=======
-
 
 ###6、服务端重定向资源访问目录
 
@@ -76,4 +72,3 @@ Try iptables-restore -h or iptables-restore --help for more information. [失败
  location ^~ /static/upload/bgmusic/{<BR>
     rewrite ^/static/upload/bgmusic/(.*)$ /kkresource/voice/$1 last;<BR>
  }<BR>
->>>>>>> a1491170d5a6b687b84acf2d0438a890987cf9cb
