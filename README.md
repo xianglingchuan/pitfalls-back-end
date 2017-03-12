@@ -1,6 +1,9 @@
 # pitfalls-back-end
 那些年，我们一起踩过的后端的坑！
 
+###10、[Hadoop2.7.1 安装提示SHUTDOWN_MSG: Shutting down NameNode)](http://blog.csdn.net/xianglingchuan/article/details/61651339)
+
+
 ###9、[Fiddle抓取https协议(ios)](http://blog.csdn.net/xianglingchuan/article/details/57122268)
 
 
